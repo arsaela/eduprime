@@ -1,0 +1,1125 @@
+body {
+    font-size: 14px !important;
+    /*font-family: 'Lato';*/
+}
+
+@font-face {
+    font-family: 'Momcake Bold'; 
+    src: url('../font/momcake/MOMCAKE-Bold.woff');
+}
+@font-face {
+    font-family: 'Momcake'; 
+    src: url('../font/momcake/MOMCAKE-Thin.woff');
+}
+
+@font-face {
+    font-family: 'Relevant Italic';
+    src: url('../font/relevant/Relevant Light Italic.woff');
+}
+
+@font-face {
+    font-family: 'Relevant';
+    src: url('../font/relevant/Relevant Normal.woff');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+img.img_logo_brain_header {
+    float: left;
+    width: 90px;
+    height: auto;
+}
+
+section.top_header {
+    background-color: #5c6288;
+    padding: 5px;
+}
+
+.detail_logo {
+    padding-top: 5px;
+}
+
+.label_report_sekolah {
+    font-size: 48px;
+    color: #fff;
+    font-family: momcake bold;
+    line-height: normal;
+}
+
+.label_sta_header_kiri {
+    color: #fff;
+    font-size: 18px;
+    font-family: relevant italic;
+    line-height: 0px; 
+    color: #F2F2F2;
+}
+
+.bg_peta_indonesia {
+    background-size: cover;
+    height: 101px;
+    background-position: bottom;
+}
+
+
+.wrap_detail_right_header {
+    padding-top: 25px;
+    text-align: right;
+    padding-right: 0px;
+}
+
+.label_right_header {
+    padding-right: 6px;
+    border-right: 2px solid #aaaec2;
+    font-size: 28px;
+    color: #fff;
+    padding-left: 9px;
+}
+
+p.label_specific_talent_analysis_logo {
+    color: #fff;
+    line-height: 12px;
+    font-size: 10px;
+    padding-top: 25px;
+}
+
+.detail_peta.col-lg-2.col-md-2 {
+    padding-top: 25px;
+}
+
+img.img_logo_eduprime {
+    width: 135px;
+    padding-top: 25px;
+}
+
+.list_persentase_potensi {
+    background-color: #5c6288;
+    margin-top: 20px;
+    color: #fff;
+    padding-left: 24px;
+}
+
+img.img_logo_graduate {
+    width: 140px;
+    display: block;
+    margin: auto;
+}
+
+.wrap_detail_persentase_potensi {
+    background-color: #e8e8ee;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.label_smk_1_eduprime {
+    color: #5c6288;
+    font-family: momcake bold;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+img.img_logo_sta_right_header {
+    width: 145px;
+}
+
+.label_persentase_potensi {
+    font-family: momcake bold;
+    font-size: 30px;
+    letter-spacing: 1.2px;
+    color: #F2F2F2;
+}
+
+img.img_line {
+    position: absolute;
+    top: 23px;
+    right: 10px;
+    height: 215px;
+}
+
+/*chart*/
+.easypiechart {
+    position: relative;
+    text-align: center;
+    width: 120px;
+    margin: 20px auto 0px auto;
+}
+
+.easypiechart .persentase_potensi {
+    font-family: momcake bold;
+    color: #000;
+    font-size: 42px;
+}
+
+.easypiechart .jumlah_siswa {
+    font-family: relevant italic;
+    color: #828282;
+    font-size: 18px;
+}
+
+.panel-default {
+    border-color: #ECECEC;
+}
+
+.panel {
+    border-radius: 0px;
+}
+
+.easypiechart-panel {
+    text-align: center;
+    padding: 1px 0;
+    margin-bottom: 20px;
+}
+
+.panel.panel-default.chart_percentase_potensi_siswa {
+    background-color: unset !important;
+    margin-bottom: 0px !important;
+    border: none;
+    box-shadow: none;
+}
+
+.eduprime_graduate {
+    padding-top: 45px;
+    padding-bottom: 30px;
+}
+
+.label_persentase_potensi_chart {
+    display: block;
+    position: absolute;
+    width: 200px;
+    padding-top: 50px;
+}
+
+.list_daftar_potensi {
+    background-color: #5c6288;
+    margin-top: 20px;
+    color: #fff;
+    padding-left: 24px;
+}
+
+.label_daftar_potensi {
+    font-family: momcake bold;
+    font-size: 30px;
+    letter-spacing: 1.2px;
+    color: #F2F2F2;
+}
+
+.data_siswa_tabel {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+.data_siswa_tabel thead {
+    background-color: #5c6288;
+    margin-top: 20px;
+    color: #fff;
+    padding-left: 24px;
+}
+
+.table>tbody>tr>td {
+    border-bottom: 1px solid #babccc !important;
+    border-top: none;
+}
+
+.data_siswa_tabel thead tr th {
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    color: #F2F2F2;
+    padding-left: 24px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.data_siswa_tabel tbody tr td {
+    padding-left: 24px;
+    font-family: relevant;
+    font-size: 18px;
+    color: #333333;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.data_siswa_tabel tbody tr td i {
+    text-align: center;
+}
+
+.data_siswa_tabel tbody tr td:nth-child(1) {
+    background-color: #E5E5E5; 
+}
+
+.data_siswa_tabel tbody tr td:nth-child(3){
+    text-align: center !important; 
+}
+
+.data_siswa_tabel tbody tr td:nth-child(4){
+    text-align: center !important; 
+}
+
+.data_siswa_tabel tbody tr td:nth-child(5){
+    text-align: center !important; 
+}
+
+.data_siswa_tabel thead tr th:nth-child(3){
+    text-align: center !important; 
+}
+
+.data_siswa_tabel thead tr th:nth-child(4){
+    text-align: center !important; 
+}
+
+.data_siswa_tabel thead tr th:nth-child(5){
+    text-align: center !important; 
+}
+
+
+.data_siswa_tabel tbody tr td .fa-check.professional {
+    color: #75C8E2;
+}
+
+.data_siswa_tabel tbody tr td .fa-check.entrepreneur {
+    color: #87CAA3;
+}
+
+.data_siswa_tabel tbody tr td .fa-check.lanjut_study {
+    color: #F4A442;
+}
+
+.data_siswa_tabel tbody tr td .fa-minus {
+    color: #828282;
+}
+
+.data_siswa_tabel thead tr {
+    padding-left: 24px;
+}
+
+.wrap_karakteristik_box_all {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.hasil_analisa_box.bottom {
+    border-bottom: unset;
+}
+
+@media(max-width: 1024px){
+    .easypiechart {
+        margin-left: unset;
+    }
+
+}
+
+@media(max-width: 768px){
+    img.img_line {
+        display: none;
+    }
+
+    .eduprime_graduate {
+        border-bottom: 1px solid #fff;
+    }
+
+    .eduprime_graduate {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .label_report_sekolah {
+        font-size: 32px;
+    }
+
+    .label_sta_header_kiri {
+        color: #fff;
+        font-size: 15px;
+    }
+
+    img.img_logo_graduate {
+        width: 100px;
+    }
+}
+
+
+@media(max-width: 425px){
+    .wrap_detail_right_header {
+        padding-top: 25px;
+        text-align: left;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .easypiechart {
+        margin-left: 66px;
+    }
+
+    .label_daftar_potensi {
+        font-size: 21px;
+    }
+
+    img.img_logo_eduprime {
+        float: right;
+    }
+
+    .label_persentase_potensi {
+        font-size: 21px;
+    }
+
+    .label_smk_1_eduprime {
+        font-size: 21px;
+    }
+
+    .data_siswa_tabel thead tr th {
+        font-size: 12px;
+    }
+
+    .data_siswa_tabel tbody tr td {
+        font-size: 12px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .data_siswa_tabel {
+        border-collapse: separate;
+        border-spacing: 0 5px;
+    }
+
+    .easypiechart .persentase_potensi {
+        font-size: 30px;
+    }
+
+    .easypiechart .jumlah_siswa {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 320px){
+    .wrap_detail_right_header{
+        display: none;
+    }
+
+    .easypiechart {
+        margin-left: 15px;
+    }
+}
+
+
+/* pemetaan kompetensi */
+h2.student_assessement_report_text {
+    font-family: calibri;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 20px;
+    /*display: flex;*/
+    align-items: center;
+    color: #000000;
+    padding-bottom: 8px;
+}
+
+
+.section_top span {
+    /* Heading M/Bold */
+
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+    /* identical to box height, or 83% */
+
+    /*  display: flex;*/
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+
+/* Vector */
+
+.vector1 {
+    position: absolute;
+    left: 24.03%;
+    right: 59.08%;
+    top: 39.92%;
+    bottom: 40.11%;
+
+    background: #FFBA08;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+img.img_logo_eduprime_text {
+    width: 135px;
+    padding-top: 41px;
+    margin-left: 59px;
+}
+
+.detail_profile_box {
+    border: 2px solid #E9ECEF;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding:20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+img.logo_detail_profile_box {
+    float: left;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+.profile_name_text {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #495057;
+}
+
+section.profile_siswa {
+    padding: 35px;
+}
+
+.wrap_detail_profile_item {
+    padding-left: 30px;
+}
+
+.profile_text_box {
+    padding-bottom: 15px;
+}
+
+.wrap_detail_profile_item.right.col-md-6 {
+    padding-top: 25px;
+    border-left: 1px solid #E9ECEF;
+    margin-bottom: 30px;
+}
+
+.wrap_all_content_header_pemetaan {
+    border-bottom: 2px solid #C4161C;
+}
+
+span.profile_name_data {
+    color: #6C757D;
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.card-header .card-analisa {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #495057;
+}
+
+.card.shadow.text-left.card-analisa-card.col-md-10.offset-md-1 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.wrap_box_profile_siswa {
+    padding-bottom: 35px;
+    border-bottom: 1px solid #E9ECEF;
+}
+
+.bg_top_header_right {
+    background-size: cover;
+    background-position: bottom;
+    height: 140px;
+    background-repeat: no-repeat;
+    width: 100% !important;
+}
+
+.wrap_left_header {
+    padding-top: 30px;
+}
+
+text.highcharts-credits {
+    display: none;
+}
+
+text.highcharts-title {
+    display: none;
+}
+
+text.highcharts-subtitle {
+    display: none;
+}
+
+img.img_logo_footer {
+    float: right;
+    padding-bottom: 10px;
+}
+
+.wrap_footer {
+    border-bottom: 2px solid #C4161C;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.footer_eduprime {
+    padding-top: 250px;
+    padding-bottom: 150px;
+}
+
+.bg_pemetaan_kurikulum {
+    background-size: cover;
+    background-position: bottom;
+    height: auto;
+    background-repeat: no-repeat;
+    width: 100% !important;
+}
+
+.hasil_pemetaan_kurikulum_text {
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: calibri;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+}
+
+.wrap_hasil_pemetaan_kurikulum {
+    padding-top: 40px;
+    padding-left: 120px;
+    padding-bottom: 40px;
+    padding-right: 70px;
+}
+
+.nama_siswa {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.btn-siswa {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: calibri;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+    float: right;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 9px;
+    margin-right: 24px;
+}
+
+.section_hasil_analisa{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.section_hasil_analisa h5{
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #212529;
+}
+
+.progressbar_text {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #495057;
+}
+
+.progress-bar.bg-success {
+    background-color: #0466C8 !important;
+    border-radius: 7px;
+}
+
+.progress-bar.bg-info {
+    background-color: #C4161C !important;
+    border-radius: 7px;
+}
+
+.progress-bar.bg-warning {
+    background-color: #FB8500 !important;
+    border-radius: 7px;
+}
+
+.progress {
+    height: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.karakteristik_text {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    color: #495057;
+    padding-bottom: 14px;
+
+}
+
+span.hasil_analisa_ket {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6C757D;
+}
+
+.wrap_karakteristik.row {
+    margin-bottom: 14px;
+}
+
+.hasil_analisa_box {
+    border-bottom: 1px solid #E9ECEF;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    margin-right: 36px;
+}
+
+.hasil_analisa_content {
+    padding-right: 40px;
+    padding-left: 5px;
+}
+
+.hasil_analisa_box_bottom {
+    padding-bottom: 70px;
+}
+
+.wrap_right_header {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.wrap_left_header {
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.card.shadow.text-left.card-analisa-card.col-md-10.offset-md-1 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-header.card-analisa {
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.box_progress {
+    padding-left: 40px;
+}
+
+.box_analisa {
+    padding-left: 40px;
+}
+
+.display_425 {
+    display: none;
+}
+
+button.btn.btn-primary.btn-analisa.btn-lg {
+    background-color: #0466C8 !important;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    border-color: #0466C8 !important;
+    color: #FFFFFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button.btn.btn-danger.btn-analisa.btn-lg {
+    background-color: #D00000 !important;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    border-color: #D00000 !important;
+    color: #FFFFFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button.btn.btn-success.btn-analisa.btn-lg {
+    background-color: #008000 !important;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    border-color: #008000 !important;
+    color: #FFFFFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn_content {
+    padding-bottom: 12px;
+}
+
+span.karakteristik_indo {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 7px;
+}
+
+span.analisa_psikologi_content {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+}
+
+.btn-analisa.btn-lg {
+    margin-top: 5px;
+}
+
+.hasil_analisa_box_bottom.psikologi {
+    padding-bottom: 50px;
+}
+
+.wrap_img_analisa_psikologi img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4px;
+}
+
+.wrap_img_analisa_psikologi {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.content_analisa_survei_karakter {
+    padding-left: 0px;
+}
+
+.analisa_survei_karakter_title {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #495057;
+}
+
+.skor_kategori_title {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #495057;
+}
+
+.content_analisa_survei_karakter {
+    padding-left: 0px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.analisa_survei_karakter_detail {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6C757D;
+}
+
+.sub_skor_kategori {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6C757D;
+}
+
+.wrap_box_analisa_survei_karakter {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #E9ECEF;
+    padding-right: 40px;
+    padding-left: 0px;
+    margin-bottom: 20px;
+}
+
+.analisa_survei_karakter {
+    padding-right: 35px;
+}
+
+.skor {
+    padding-right: 0px;
+    max-width: 8% !important;
+}
+
+@media(max-width: 768px){
+    .wrap_detail_profile_item {
+        padding-left: 8px;
+    }
+
+    .skor {
+        padding-right: 0px;
+        max-width: 11% !important;
+    }
+
+    .wrap_box_profile_siswa {
+        padding-bottom: 20px;
+    }
+
+    section.profile_siswa {
+        padding: 20px;
+    }
+
+    .card-header.card-analisa h5 {
+        font-size: 18px;
+        padding-bottom: 0px;
+    }
+
+    .card-header.card-analisa {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    .footer_eduprime {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    .hasil_pemetaan_kurikulum_text {
+        color: #FFFFFF;
+        font-size: 19px;
+        line-height: 20px;
+    }
+
+    .wrap_hasil_pemetaan_kurikulum {
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-bottom: 40px;
+        padding-right: 40px;
+    }
+
+    .btn-siswa {
+        font-size: 18px;
+    }
+
+    .nama_siswa {
+        font-size: 17px;
+    }
+
+    .btn-siswa {
+        margin-right: 10px;
+    }
+
+    .section_hasil_analisa {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .box_progress {
+        padding-left: 20px;
+        padding-right: 0px;
+    }  
+
+    .box_analisa {
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+
+    .hasil_analisa_content {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .icon-hasil_analisa_box.col-md-1 {
+        padding-right: unset !important;
+    }
+
+}
+
+@media(max-width: 425px){
+    .display_425 {
+        display: block;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    .box_progress {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .hasil_analisa_box {
+        margin-right: 0px;
+    }
+
+    .wrap_left_header {
+        display: none;
+    }
+
+    img.img_logo_eduprime_text {
+        width: 112px;
+        padding-top: 28px;
+        margin-left: 20px;
+        margin-right: 10px;
+        float: left;
+    }
+
+    h2.student_assessement_report_text {
+        font-family: calibri;
+        font-size: 19px;
+        padding-bottom: 0px;
+        margin-bottom: 5px;
+    }
+    .section_top span {
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 19px;
+    }
+
+    .detail_profile_box {
+        padding: 20px;
+        padding-top: 15px;
+        padding-bottom: 0px;
+    }
+
+    .wrap_detail_profile_item.right.col-md-6 {
+        padding-top: 0px;
+        border-left: unset;
+        margin-bottom: 10px;
+    }
+
+    .card.shadow.text-left.card-analisa-card.col-md-10.offset-md-1 {
+        margin-left: 15px;
+    }
+
+    .display_425 {
+        display: block;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    .bg_top_header_right {
+        background-size: cover;
+        background-position: bottom;
+        height: 100px;
+    }
+
+    .btn-siswa {
+        float: left;
+        margin-top: 10px;
+    }
+
+    .icon-hasil_analisa_box.col-md-1 {
+        position: absolute;
+    }
+
+    .hasil_analisa_content {
+        padding-left: 41px;
+    }
+
+    .hasil_analisa_box_bottom {
+        padding-bottom: 10px;
+    }
+
+    .hasil_analisa_box {
+        margin-bottom: 30px;
+    }
+
+    .analisa_survei_karakter_title {
+        text-align: center;
+    }
+
+    .skor {
+    padding-right: 0px;
+    max-width: 16% !important;
+    }
+}
+
+@media(max-width: 375px){
+    .card-header.card-analisa h5 {
+        font-size: 16px;
+    }
+
+    .wrap_hasil_pemetaan_kurikulum {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    img.img_logo_eduprime_text {
+        width: 122px;
+    }
+
+    span.pemetaan_kompetensi {
+        padding-left: 0px;
+        font-size: 14px;
+    }
+
+    h2.student_assessement_report_text {
+        margin-bottom: 0px;
+    }
+
+    h2.student_assessement_report_text {
+        font-size: 17px;
+    }
+}
